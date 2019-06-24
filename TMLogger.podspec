@@ -7,21 +7,21 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'TMLog'
+  s.name             = 'TMLogger'
   s.version          = '1.0'
   s.summary          = '分级日志'
 
   s.description      = '支持记录崩溃日志；支持分级日志'
 
-  s.homepage         = 'https://github.com/Tovema-iOS/TMLog'
+  s.homepage         = 'https://github.com/Tovema-iOS/TMLogger'
   s.license          = 'MIT'
   s.author           = { 'CodingPub' => 'lxb_0605@qq.com' }
-  s.source           = { :git => 'https://github.com/Tovema-iOS/TMLog.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Tovema-iOS/TMLogger.git', :tag => s.version.to_s }
   
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/TMLog/**/*'
+  s.source_files = 'Pod/Classes/**/*'
 
   s.dependency 'CocoaLumberjack', '~> 3.4.0'
 end

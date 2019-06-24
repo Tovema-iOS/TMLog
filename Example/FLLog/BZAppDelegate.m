@@ -7,7 +7,7 @@
 //
 
 #import "BZAppDelegate.h"
-#import <TMLog/TMLog.h>
+#import <TMLogger/TMLogger.h>
 
 @implementation BZAppDelegate
 

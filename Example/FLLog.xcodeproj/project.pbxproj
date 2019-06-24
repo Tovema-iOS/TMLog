@@ -44,8 +44,8 @@
 /* Begin PBXFileReference section */
 		024004F50E1665DDD2F7F932 /* Pods-FLLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLLog_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLLog_Example/Pods-FLLog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		14EBBFB12D44EEFD9E0C6BFB /* libPods-BZLog_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BZLog_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		172F56BD22BD18A7006DFB79 /* TMLog.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = TMLog.podspec; path = ../TMLog.podspec; sourceTree = "<group>"; };
 		1737AFCE1DAB9DEC00F338C8 /* libFLLog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFLLog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17487EB822C103BB000EA069 /* TMLogger.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = TMLogger.podspec; path = ../TMLogger.podspec; sourceTree = "<group>"; };
 		5AE49F6276CB5B6C04440D59 /* Pods-FLLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLLog_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLLog_Example/Pods-FLLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FLLog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLLog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -153,7 +153,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				172F56BD22BD18A7006DFB79 /* TMLog.podspec */,
+				17487EB822C103BB000EA069 /* TMLogger.podspec */,
 				7D7CC29A107D27E04F60F40A /* README.md */,
 				D3FED329AD485435184C77DE /* LICENSE */,
 			);

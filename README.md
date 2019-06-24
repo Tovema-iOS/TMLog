@@ -1,4 +1,4 @@
-# TMLog
+# TMLogger
 
 An open source log system for oc.
 
@@ -8,18 +8,18 @@ iOS8, ARC
 
 ## Installation
 
-TMLog is available through [CocoaPods](http://cocoapods.org). To install
+TMLogger is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 source 'https://github.com/Tovema-iOS/Specs.git'
-pod "TMLog", '~> 1.0'
+pod "TMLogger", '~> 1.0'
 ```
 
 ## Usage
 
 ``` Objective-C
-#import <TMLog/TMLog.h>
+#import <TMLogger/TMLogger.h>
 ```
 
 - Normal log
@@ -44,4 +44,4 @@ CodingPub, lxb_0605@qq.com
 
 ## License
 
-TMLog is available under the MIT license. See the LICENSE file for more info.
+TMLogger is available under the MIT license. See the LICENSE file for more info.

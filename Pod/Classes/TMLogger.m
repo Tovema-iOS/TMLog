@@ -5,10 +5,10 @@
 //  Created by Xiaobin Lin on 2018/8/10.
 //
 
-#import "TMLog.h"
+#import "TMLogger.h"
 #import "FLLogFormatter.h"
 
-@implementation TMLog
+@implementation TMLogger
 
 + (void)load
 {

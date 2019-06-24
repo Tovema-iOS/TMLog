@@ -34,7 +34,7 @@ static DDLogLevel ddLogLevel = DDLogLevelOff;
 
 #endif
 
-@interface TMLog : NSObject
+@interface TMLogger : NSObject
 
 /**
  *  设置要记录的log级别
