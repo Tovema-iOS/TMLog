@@ -1,0 +1,28 @@
+PODS:
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - TMLogger (1.0):
+    - CocoaLumberjack (~> 3.4.0)
+
+DEPENDENCIES:
+  - TMLogger (from `../`)
+
+SPEC REPOS:
+  https://github.com/Tovema-iOS/Specs:
+    - CocoaLumberjack
+
+EXTERNAL SOURCES:
+  TMLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  TMLogger: c4141c8d48a80d3759cc3ebb5b13b740d3577a7c
+
+PODFILE CHECKSUM: 750281f52860de329882f469d6d6eaf005d30932
+
+COCOAPODS: 1.7.2
